@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>ICT 10 SW#2</title>
+  <style>
+  .bg-color {
+    background-color: #8B4513;
+  }
+  </style>
+
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+    <div class="container">
+      <a class="navbar-brand" href="#">Gab's Ramen House</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="order.html">Order Now</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact our branch</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="text-center bg-color text-white p-3 rounded">
+      <h1 id="storeName"></h1>
+      <p id="ownerName"></p>
+      <p id="yearFounded"></p>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <h4 class="text-center">Menu</h4>
+    <table class="table table-bordered text-center">
+      <tr><th>Ramen</th><th>Price (₱)</th></tr>
+      <tr><td>Shoyu Ramen</td><td>PHP199.00</td></tr>
+      <tr><td>Miso Ramen</td><td>PHP220.00</td></tr>
+      <tr><td>Pork Tonkotsu Ramen</td><td>PHP250.00</td></tr>
+      <tr><td>Spicy Ramen</td><td>PHP230.00</td></tr>
+      <tr><td>Tantanmen</td><td>PHP180.00</td></tr>
+      <tr><th>Sides & Drinks</th><th>Price (₱)</th></tr>
+      <tr><td>Gyoza (5 pcs)</td><td>PHP120.00</td></tr>
+      <tr><td>Iced Tea</td><td>PHP80.00</td></tr>
+      <tr><td>Coke</td><td>PHP40.00</td></tr>
+    </table>
+  </div>
+
+  <div class="text-center mt-3">
+    <a href="order.html" class="btn btn-primary">🛒 Order Now</a>
+  </div>
+
+  <footer class="text-center mt-4">
+    <p>Open: 11:00 AM - 10:00 PM</p>
+  </footer>
+
+  <script type="py" src="main.py"></script>
+</body>
+</html>
